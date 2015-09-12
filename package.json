@@ -1,0 +1,26 @@
+{
+  "name": "codesaba-training",
+  "version": "1.0.0",
+  "description": "The public website that features all the tutorials, videos &amp; code and some notes about development.",
+  "keywords": [],
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codesaba/codesaba.github.io.git"
+  },
+  "author": {
+    "name":"jebli mohamed",
+    "email":"jeblister@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codesaba/codesaba.github.io/issues"
+  },
+  "homepage": "https://github.com/codesaba/codesaba.github.io#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.0.1",
+    "gulp-cssnext": "^1.0.1",
+    "gulp-rename": "^1.2.2"
+  }
+}
