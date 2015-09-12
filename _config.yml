@@ -1,12 +1,17 @@
 # Exclude
 exclude: [READEME.md]
 # Defaults
+defaults:
 	-
+		scope:
+			path: ""
 		values:
 			layout: default
 
 # Dependencies
-markdown:            redcarpet
+markdown:            kramdown
+kramdown:
+	imput: GFM
 highlighter:         pygments
 
 # Permalinks
