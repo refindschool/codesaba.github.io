@@ -9,8 +9,8 @@
     "url": "git+https://github.com/codesaba/codesaba.github.io.git"
   },
   "author": {
-    "name":"jebli mohamed",
-    "email":"jeblister@gmail.com"
+    "name": "jebli mohamed",
+    "email": "jeblister@gmail.com"
   },
   "license": "MIT",
   "bugs": {
@@ -22,5 +22,7 @@
     "gulp-autoprefixer": "^3.0.1",
     "gulp-cssnext": "^1.0.1",
     "gulp-rename": "^1.2.2"
+  },
+  "dependencies": {
   }
 }

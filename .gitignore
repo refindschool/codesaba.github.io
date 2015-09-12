@@ -42,3 +42,4 @@ _site/
 .sass-cache/
 .jekyll-metadata
 _gh_pages
+tmp
