@@ -1,15 +1,21 @@
 # Exclude
 exclude:
-	- READEME.md
 	- glupfile.js
 	- package.json
+	- .editorconfig
+	- gitignore
+	- tmp
+	- node_modules
+	- css/*.css
+	- js/*.js
+
 # Defaults
 defaults:
 	-
 		scope:
 			path: ""
 		values:
-			layout: default
+			layout: article
 
 # Dependencies
 markdown:            kramdown
