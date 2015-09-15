@@ -4,9 +4,6 @@ next:
   title: Marking up a webpage
   url: marking-up-a-webpage
 ---
-
-# HTML semantics
-
 HTML (Hypertext Markup Language) is the coding language used to describe the content of websites.
 
 HTML has no look—it’s only purpose is to describe the meaning, the semantics, of the content.

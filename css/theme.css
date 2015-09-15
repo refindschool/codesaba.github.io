@@ -40,8 +40,6 @@ code[class*="language-"] {
 }
 
 pre {
-  margin-left: -0.8em;
-  margin-right: -0.8em;
   padding: 0.6em 0.8em;
   position: relative;
 }
@@ -143,7 +141,6 @@ pre::after {
   background-color: var(--color-grey-light);
   text-decoration: none;
 }
-
 .controls {
   position: relative;
 
