@@ -1,4 +1,8 @@
 ---
+title: HTML semantics
+next:
+  title: Marking up a webpage
+  url: marking-up-a-webpage
 ---
 
 # HTML semantics
