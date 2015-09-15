@@ -1,48 +1,22 @@
-# Exclude
+permalink: pretty
+
 exclude:
-	- README.md
-	- glupfile.js
-	- package.json
-	- .editorconfig
-	- gitignore
-	- tmp
-	- node_modules
-	- css/*.css
-	- js/*.js
+  - README.md
+  - gulpfile.js
+  - package.json
+  - .editorconfig
+  - .gitignore
+  - tmp
+  - node_modules
+  - css/*.css
+  - js/*.js
 
-# Defaults
-defaults:
-	-
-		scope:
-			path: ""
-		values:
-			layout: article
-
-# Dependencies
-markdown:            kramdown
 kramdown:
-	imput: GFM
-highlighter:         pygments
+  input: GFM
 
-# Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
-relative_permalinks: true
-
-# Setup
-title:            Code7
-tagline:          'Learning code for Startups, No-Dev, or just for Fun !'
-description:      'Blog of Code7. Here are some Web development tutorials, videos & code, some notes about development.'
-url:              http://codeseven.github.io
-
-author:
-  name:           'jeblister'
-  url:            http://twitter.com/jebli_7
-  gravatar:       https://fr.gravatar.com/jebli
-  photo:          https://secure.gravatar.com/avatar/e9c0c32faa7615c33cf77371c4cf5548
-  introduction:   'Some introduction words that will be displayed under the avatar. You may include HTML <a href="#">here</a>.'
-
-# Custom vars
-version:          1.0.0
-  repo:           https://github.com/jeblister/jeblister.github.io
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: article
