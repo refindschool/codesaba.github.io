@@ -3,12 +3,12 @@ html {
   font-family: "Alegreya Sans",sans-serif;
 }
 
-a{
+a {
   color: var(--color-link);
   text-decoration: none;
 }
 
-a:hover{
+a:hover {
   text-decoration: underline;
 }
 
@@ -19,6 +19,17 @@ a:focus {
 hr {
   border-color: var(--color-grey-light);
   border-width: 3px;
+}
+
+code,
+pre {
+  padding: 0.1em 0.4em;
+
+  border-radius: 3px;
+  background-color: var(--color-code);
+
+  font-size: 90%;
+  font-family: "Source Code Pro",monospace;
 }
 
 code[class*="language-"] {
@@ -47,7 +58,31 @@ pre::after {
 .wrapper {
   margin-left: auto;
   margin-right: auto;
-  max-width: 50em;
+  max-width: 40em;
+}
+
+.tutorial h2,
+.tutorial h3,
+.tutorial h4,
+.tutorial h5,
+.tutorial h6 {
+
+}
+
+.heading-link {
+  display: none;
+  position: absolute;
+  margin-left: -0.6em;
+
+  opacity: 0.4;
+  color: var(--color-grey);
+  font-weight: normal;
+}
+
+.heading-link:hover {
+  opacity: 1;
+  color: var(--color-link);
+  text-decoration: none;
 }
 
 .tutorial ul {
@@ -58,12 +93,20 @@ pre::after {
 
 .tutorial ul li::before {
   content: "•";
-  margin-left: -0.4em;
+  margin-left: -0.35em;
   position: absolute;
 
   color: var(--color-grey-dark);
   font-size: 1.5rem;
   line-height: 0.8;
+}
+
+.tutorial .list-group > li::before {
+  content: none;
+}
+
+.tutorial ol {
+  padding-left: 1.5em;
 }
 
 .tutorial img {
@@ -80,18 +123,79 @@ pre::after {
   padding-left: 0.6em;
 }
 
+.tutorial-nav > ol > li > ol {
+  padding-left: 0;
+}
+
+.tutorial-nav > ol > li > a {
+  font-weight: bold;
+}
+
+.tutorial-nav a {
+  display: block;
+  padding: 0.1em 0.3em;
+}
+
+.tutorial-nav a:hover {
+  border-radius: 4px;
+  background-color: var(--color-grey-light);
+  text-decoration: none;
+}
+
+.controls {
+  position: relative;
+
+  text-align: center;
+}
+
+.controls .btn {
+  display: block;
+}
+
+.tutorial-footer {
+  border-top: 3px solid var(--color-grey-light);
+}
+
 @media only screen and (min-width: 38em) {
 
-  .tutorial {
-    padding-left: 1.4rem;
+  .controls .btn {
+    display: inline-block;
+  }
+
+  .controls-prev {
+    left: 0;
+    position: absolute;
+    top: 0;
+  }
+
+  .controls-next {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+}
+
+@media only screen and (min-width: 48em) {
+
+  .heading-link {
+    display: block;
   }
 
 }
 
 @media only screen and (min-width: 60em) {
 
+  .wrapper {
+    max-width: 50em;
+  }
+
   .tutorial {
-    padding-left: 1.5rem
+    padding-left: 1.5rem;
+  }
+
+  .tutorial ol {
+    padding-left: 0;
   }
 
 }
