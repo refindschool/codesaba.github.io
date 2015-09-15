@@ -49,9 +49,8 @@ code[class*="language-"]::selection, code[class*="language-"] ::selection {
 
 /* Code blocks */
 pre[class*="language-"] {
-	padding: 1em;
-	margin: .5em 0;
-	overflow: auto;
+	/*padding: 1em;*/
+	/*overflow: auto;*/
 }
 
 :not(pre) > code[class*="language-"],
@@ -61,8 +60,8 @@ pre[class*="language-"] {
 
 /* Inline code */
 :not(pre) > code[class*="language-"] {
-	padding: .1em;
-	border-radius: .3em;
+	/*padding: .1em;
+	border-radius: .3em;*/
 }
 
 .token.comment,
@@ -135,4 +134,3 @@ pre[class*="language-"] {
 .token.entity {
 	cursor: help;
 }
-
