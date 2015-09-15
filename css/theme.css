@@ -3,15 +3,12 @@ html {
   font-family: "Alegreya Sans",sans-serif;
 }
 
-a,
-a:link,
-a:visited {
+a{
   color: var(--color-link);
   text-decoration: none;
 }
 
-a:hover,
-a:active {
+a:hover{
   text-decoration: underline;
 }
 

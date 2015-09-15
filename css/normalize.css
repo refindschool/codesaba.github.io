@@ -208,6 +208,10 @@ figure {
 /**
  * Address differences between Firefox and other browsers.
  */
+ svg {
+  fill: currentColor;
+  stroke: currentColor;
+}
 
 hr {
   box-sizing: content-box;
