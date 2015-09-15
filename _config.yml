@@ -1,5 +1,6 @@
 # Exclude
 exclude:
+	- README.md
 	- glupfile.js
 	- package.json
 	- .editorconfig
