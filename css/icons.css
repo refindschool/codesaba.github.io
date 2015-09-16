@@ -47,3 +47,12 @@
 .icon-text {
   vertical-align: middle;
 }
+
+
+.icon-link {
+  text-decoration: none;
+}
+
+.icon-link:hover {
+  text-decoration: none;
+}
